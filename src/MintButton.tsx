@@ -45,7 +45,7 @@ export const MintButton = ({
       style={{
         backgroundColor: "#43beeb",
         fontSize: "20px",
-        fontFamily: "Bbc, sans-serif",
+        fontFamily: "Comic Neue, cursive",
         minWidth: "150px",
         color: "white",
         justifyContent: "center",
