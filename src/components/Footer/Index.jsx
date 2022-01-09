@@ -14,7 +14,7 @@ export default function Footer() {
           {/* <!-- Discord --> */}
           <a
             className="btn btn-link btn-floating btn-lg m-1"
-            href="https://www.facebook.com/groups/1220649054627343"
+            href="https://discord.gg/pxcZAsJ8"
             role="button"
             data-mdb-ripple-color="dark"
           >
@@ -24,7 +24,7 @@ export default function Footer() {
           {/* <!-- Twitter --> */}
           <a
             className="btn btn-link btn-floating btn-lg m-1"
-            href="https://twitter.com/quantumQTC"
+            href="https://twitter.com/NeedzBeezNft"
             role="button"
             data-mdb-ripple-color="dark"
           >
@@ -40,7 +40,7 @@ export default function Footer() {
         className="text-center p-3"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
-        © 2021 Copyright: DoodlePound
+        © 2021 Copyright: Needz Beez
       </div>
       {/* <!-- Copyright --> */}
     </footer>

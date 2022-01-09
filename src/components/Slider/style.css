@@ -1,3 +1,7 @@
+#about {
+  background-color: #373c3e;
+  min-height: 100vh;
+}
 .tech-slideshow {
   height: 400px;
   width: 60%;
@@ -10,7 +14,7 @@
 .tech-slideshow > div {
   height: 400px;
   width: 4000px;
-  background: url("../../assets/image/slide2.png");
+  background: url("../../assets/image/slide.png");
   position: absolute;
   top: 0;
   left: 0;
@@ -29,6 +33,17 @@
 }
 .tech-slideshow:hover .mover-2 {
   opacity: 1;
+}
+
+.card {
+  color: black;
+}
+
+.card-body {
+  font-family: "ABeeZee", sans-serif;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
 }
 
 @keyframes moveSlideshow {
@@ -52,14 +67,12 @@
 .slider .slider-row {
   width: 2956px;
   height: 400px;
-  background-image: url("../../assets/image/slide2.png");
+  background-image: url("../../assets/image/slide.png");
   background-size: 2956px 400px;
   animation: slide 50s linear infinite;
+  margin: 50px 0px;
 }
 
-.t-shadow {
-  text-shadow: 3px 3px #131212;
-}
 @keyframes slide {
   from {
     background-position-x: 0;

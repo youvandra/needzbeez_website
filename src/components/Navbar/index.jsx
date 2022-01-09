@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container">
         <a className="navbar-brand" href="#">
-          SolanaPounds
+          Needz Beez
         </a>
         <button
           className="navbar-toggler"
@@ -23,8 +23,8 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#featured">
-                FEATURED
+              <a className="nav-link" href="#about">
+                About
               </a>
             </li>
             <li className="nav-item">

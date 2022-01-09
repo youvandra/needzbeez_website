@@ -1,7 +1,8 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import styled from "styled-components";
 import Button from "@material-ui/core/Button";
 import { CandyMachine } from "./candy-machine";
-import { CircularProgress } from "@material-ui/core";
+import { CircularProgress, colors } from "@material-ui/core";
 import { GatewayStatus, useGateway } from "@civic/solana-gateway-react";
 import { useEffect, useState } from "react";
 import Countdown from "react-countdown";
@@ -43,12 +44,12 @@ export const MintButton = ({
   return (
     <CTAButton
       style={{
-        backgroundColor: "#43beeb",
+        background: "black",
         fontSize: "20px",
-        fontFamily: "Comic Neue, cursive",
+        fontFamily: "Holtwood One SC, serif",
         minWidth: "150px",
-        color: "white",
         justifyContent: "center",
+        color: "white",
       }}
       disabled={
         candyMachine?.state.isSoldOut || isMinting || !isActive || isVerifying

@@ -27,9 +27,9 @@ import { AlertState } from "./utils";
 const ConnectButton = styled(WalletDialogButton)``;
 
 const MintContainer = styled.div`
-  backgroundColor: "#43beeb",
+  backgroundColor: "black",
   fontSize: "20px",
-  font-family: "Comic Neue", cursive;
+  font-family: "Holtwood One SC, serif;
   minWidth: "150px",
   color: "white",
   justifyContent: "center",`; // add your styles here
@@ -175,7 +175,7 @@ const Home = (props: HomeProps) => {
       {/* {wallet && <p>Balance: {(balance || 0).toLocaleString()} SOL</p>} */}
 
       {wallet && (
-        <h3 style={{ textShadow: "1px 1px #0c0c0c" }}>
+        <h3 style={{ textShadow: "1px 1px white", color: "black" }}>
           {itemsRedeemed} / {itemsAvailable} Minted
         </h3>
       )}
@@ -189,9 +189,9 @@ const Home = (props: HomeProps) => {
           {!wallet ? (
             <ConnectButton
               style={{
-                backgroundColor: "#43beeb",
+                background: "black",
                 fontSize: "20px",
-                fontFamily: "Comic Neue, cursive",
+                fontFamily: "Holtwood One SC, serif",
                 minWidth: "150px",
                 justifyContent: "center",
               }}
