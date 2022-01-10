@@ -1,0 +1,53 @@
+.members {
+  font-family: "ABeeZee", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+}
+
+.members h6 {
+  font-weight: bold;
+}
+.members .font-weight-medium {
+  font-weight: 500;
+}
+
+.members .bg-light {
+  background-color: #f4f8fa !important;
+}
+
+.members .subtitle {
+  color: #8d97ad;
+  line-height: 24px;
+}
+
+.members .pro-pic {
+  min-height: 200px;
+}
+
+.members .desc {
+  font-size: 0.8em;
+}
+.position {
+  color: #8d97ad;
+  font-size: 0.9em;
+}
+
+.pablo {
+  background: url("../../assets/image/pablo.png") no-repeat;
+  background-size: cover;
+}
+
+.king {
+  background: url("../../assets/image/king.png") no-repeat;
+  background-size: cover;
+}
+
+.finezze {
+  background: url("../../assets/image/finezze.png") no-repeat;
+  background-size: cover;
+}
+
+.bee {
+  background: url("../../assets/image/bee.png") no-repeat;
+  background-size: cover;
+}

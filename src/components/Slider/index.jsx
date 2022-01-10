@@ -3,14 +3,14 @@ import "./style.css";
 
 export default function Slider() {
   return (
-    <div id="about">
+    <div id="story">
       <div
         className="container mb-5"
         data-aos="fade-left"
         data-aos-duration="1000"
         data-aos-once="true"
       >
-        <h1 className="tittle text-center t-shadow pt-3 pb-3">About</h1>
+        <h1 className="tittle text-center t-shadow pt-3 pb-3">Story</h1>
         <div className="card">
           <div className="card-body text-justify">
             Since time immemorial, bees and man have lived in harmony. As
@@ -23,7 +23,7 @@ export default function Slider() {
             blockchain in an effort to save not only themselves but the planet
             and the metaverse. Unfortunately, they can’t do it by themselves;
             they need YOU to help them on their journey because “The Planet and
-            the Metaverse NEEDZ BEEZ”.{" "}
+            the Metaverse NEEDZ BEEZ”.
           </div>
         </div>
       </div>

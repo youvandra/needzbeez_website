@@ -3,7 +3,7 @@ import "./style.css";
 
 export default function Faq() {
   return (
-    <div style={{ backgroundColor: "#373c3e" }}>
+    <div>
       <section
         className="accordion-section clearfix mt-3"
         aria-label="Question Accordions"
@@ -81,12 +81,12 @@ export default function Faq() {
               >
                 <div className="panel-body px-3 mb-4">
                   <p>
-                    This project has been created by a team of NFT & Nature
-                    enthusiasts. We believe in NFTs as an expressional way to
-                    provide charitable contribution through utility benefits for
-                    the holders. Furthermore, as an instrument to develop
-                    support networks for charitable contribution and
-                    conservation efforts.
+                    This project has been created by a team of Nature & NFT
+                    enthusiasts. We believe in NFTs as an expressive way to
+                    provide charitable contributions through utility benefits
+                    for the holders. Furthermore, as an instrument to develop
+                    support networks for charitable contribution and other
+                    conservatory efforts.
                   </p>
                 </div>
               </div>
@@ -121,9 +121,8 @@ export default function Faq() {
                     of bees minted on the Solana blockchain. Owning a Needz Beez
                     NFT will give you access to very exclusive events and
                     features : charity donations, hive sponsoring, P2E
-                    Blockchain game, percentage of royalties, community DAO,
-                    free access to a respected artist collection, NFT staking,
-                    Exclusive Needz Beez Merchandise and Giveaways.
+                    Blockchain game, percentage of royalties, community DAO, NFT
+                    staking, Exclusive Needz Beez Merchandise and Giveaways.
                   </p>
                 </div>
               </div>
@@ -156,8 +155,8 @@ export default function Faq() {
                   <p>
                     Our unique collection has 8 total properties and 100+ traits
                     based around 4 of the world's most famous bees (BumbleBee,
-                    Honey Bee, Leaf Cutter Bee, AND Killer Bee) . Which hive
-                    will you join?
+                    Honey Bee, Leaf Cutter Bee, AND Killer Bee). Which hive will
+                    you join?
                   </p>
                 </div>
               </div>
@@ -220,8 +219,9 @@ export default function Faq() {
               >
                 <div className="panel-body px-3 mb-4">
                   <p>
-                    You can get your hands on a Needz Beez NFT on the Solana
-                    Marketplace.
+                    You can get your hands on a Needz Beez NFT at NeedzBeez.io
+                    on Mint Day or by purchasing one on select secondary
+                    marketplaces (TBA).
                   </p>
                 </div>
               </div>
@@ -251,7 +251,7 @@ export default function Faq() {
                 aria-labelledby="heading2"
               >
                 <div className="panel-body px-3 mb-4">
-                  <p>0.5 Sol Pre sale, 1 sol Public Sale </p>
+                  <p>0.5 Sol Pre sale (Whitelist only), 1 Sol Public Sale </p>
                 </div>
               </div>
             </div>
@@ -269,12 +269,53 @@ export default function Faq() {
                     aria-expanded="true"
                     aria-controls="collapse7"
                   >
-                    Are Needz Beez supporting charities?
+                    How to Join The Whitelist?
                   </a>
                 </h3>
               </div>
               <div
                 id="collapse7"
+                className="panel-collapse collapse"
+                role="tabpanel"
+                aria-labelledby="heading2"
+              >
+                <div className="panel-body px-3 mb-4">
+                  <p>
+                    You must invite 15 people to the discord, 10 of which stay.
+                  </p>
+                  <p>
+                    You must also participate in 1 conservation effort, take a
+                    photo to post on social media and Tag needz Beez. These can
+                    be 1 of 3 things.
+                  </p>
+                  <ol>
+                    <li>make a bee bath in your garden</li>
+                    <li>plant a set of flowers or trees</li>
+                    <li>make a bee hotel for solitary bees</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+
+            <div className="panel panel-default">
+              <div className="panel-heading p-3 mb-3" role="tab" id="heading2">
+                <h3 className="panel-title">
+                  <a
+                    className="collapsed"
+                    role="button"
+                    title=""
+                    data-toggle="collapse"
+                    data-parent="#accordion"
+                    href="#collapse8"
+                    aria-expanded="true"
+                    aria-controls="collapse8"
+                  >
+                    Are Needz Beez supporting charities?
+                  </a>
+                </h3>
+              </div>
+              <div
+                id="collapse8"
                 className="panel-collapse collapse"
                 role="tabpanel"
                 aria-labelledby="heading2"
@@ -299,16 +340,16 @@ export default function Faq() {
                     title=""
                     data-toggle="collapse"
                     data-parent="#accordion"
-                    href="#collapse8"
+                    href="#collapse9"
                     aria-expanded="true"
-                    aria-controls="collapse8"
+                    aria-controls="collapse9"
                   >
                     How can I get in touch?
                   </a>
                 </h3>
               </div>
               <div
-                id="collapse8"
+                id="collapse9"
                 className="panel-collapse collapse"
                 role="tabpanel"
                 aria-labelledby="heading2"

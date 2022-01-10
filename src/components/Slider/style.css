@@ -1,4 +1,4 @@
-#about {
+#story {
   background-color: #373c3e;
   min-height: 100vh;
 }
@@ -14,7 +14,7 @@
 .tech-slideshow > div {
   height: 400px;
   width: 4000px;
-  background: url("../../assets/image/slide.png");
+  background: url("../../assets/image/slide3.png");
   position: absolute;
   top: 0;
   left: 0;
@@ -67,7 +67,7 @@
 .slider .slider-row {
   width: 2956px;
   height: 400px;
-  background-image: url("../../assets/image/slide.png");
+  background-image: url("../../assets/image/slide3.png");
   background-size: 2956px 400px;
   animation: slide 50s linear infinite;
   margin: 50px 0px;
